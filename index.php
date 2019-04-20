@@ -1,6 +1,8 @@
 <?php
 include_once('_config.php');
+include_once(ROOT.'/class/Autoload.php');
 
+<<<<<<< HEAD
 // create the action request
 if(isset($_GET['action'])) {
     $action = $_GET['action'];
@@ -34,3 +36,13 @@ if( isPublicArea($action) ) {
 
 
 
+=======
+Autoload::start();
+// include_once(ROOT.'/class/Routeur.php');
+
+
+$p = $_GET['p'];
+
+$routeur = new Routeur($p);
+$routeur->renderController();
+>>>>>>> morgane
