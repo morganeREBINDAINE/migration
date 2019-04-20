@@ -1,8 +1,4 @@
-# mvc_architecture
-Example of an mvc architecture
+Partie de ce projet : 
+https://github.com/littleblackman/Devinette
 
-From an procedural code (in master)
-to an mvc architecture (final branch)
-
-here is the site on youtube
-https://www.youtube.com/playlist?list=PLCg7bb2BzkP3BjEkpMw7_ppGgDcc73oSM
+Résultat en POO/MVC
